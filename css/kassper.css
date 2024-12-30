@@ -1883,7 +1883,11 @@ header .container .bar:hover span {
   margin-top: 50px;
   font-size: 20px;
 }
-
+@media (max-width : 767px) {
+  .footer .container p {
+    font-size: 16px;
+  }
+}
 .footer .container p:last-of-type span {
   color: var(--main-color);
 }
