@@ -89,7 +89,7 @@ header .container::after {
 }
 
 header .container .logo {
-  height: 50px;
+  height: 40px;
 }
 
 header .container nav {
@@ -909,6 +909,7 @@ header .container .bar:hover span {
   .about .img img {
     bottom: -70px;
     margin-top: -100px;
+    width: 320px;
   }
 }
 
@@ -916,6 +917,7 @@ header .container .bar:hover span {
   .about .img img {
     bottom: -90px;
     margin-top: -100px;
+    width: 400px;
   }
 }
 
