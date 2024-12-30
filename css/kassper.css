@@ -1522,6 +1522,13 @@ header .container .bar:hover span {
   -o-transition: 0.8s;
 }
 
+@media (max-width: 767px) {
+  .price .plans .palne button .move,
+  .price .plans .palne button::before {
+    font-size: 16px;
+  }
+}
+
 .price .plans .palne button:hover::before {
   left: 35px;
 }
@@ -1543,7 +1550,7 @@ header .container .bar:hover span {
   font-size: 18px;
 }
 
-@media (max-width: 344px) {
+@media (max-width: 767px) {
   .spec-contact p {
     font-size: 16px;
   }
@@ -1845,7 +1852,7 @@ header .container .bar:hover span {
 }
 
 .footer .container img {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .footer .container p:first-of-type {
@@ -1873,13 +1880,10 @@ margin-bottom: 30px;
 }
 
 .footer .container p:last-of-type {
-margin-top: 50px;
-font-size: 20px;
+  margin-top: 50px;
+  font-size: 20px;
 }
 
 .footer .container p:last-of-type span {
   color: var(--main-color);
 }
-
-
-
